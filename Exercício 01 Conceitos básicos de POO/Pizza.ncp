@@ -7,8 +7,8 @@
       <Entity type="Class">
         <Name>Pizza</Name>
         <Access>Public</Access>
-        <Location left="587" top="117" />
-        <Size width="162" height="216" />
+        <Location left="585" top="107" />
+        <Size width="173" height="216" />
         <Collapsed>False</Collapsed>
         <Member type="Property">public int ingredienteAdcional { get; set; }</Member>
         <Member type="Property">public int valorBase { get; set; }</Member>

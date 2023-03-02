@@ -1,9 +1,9 @@
 public class Pizza {
     //#region
     
-    private final int MAX_ADCIONAIS = 8;
-    private final int VALOR_BASE = 25;
-    private final int VALOR_ADCIONAL = 4;
+    private static final  int MAX_ADCIONAIS = 8;
+    private static final int VALOR_BASE = 25;
+    private static final int VALOR_ADCIONAL = 4;
     private int quantidadeIngredienteAdcional;
     private String descricao;
 
@@ -22,7 +22,7 @@ public class Pizza {
 
     /**
      * Adciona ingredientes na pizza, máximo de 8 ingredientes adcionais por pizza.
-     * @param quantidade de ingrdiente adcionais
+     * @param quantidade de ingredientes adcionais
      * @return Um numero inteiro
      */
     public int adcionarIngredientes(int quantidade){
