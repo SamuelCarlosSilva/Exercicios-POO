@@ -48,7 +48,7 @@ public class Pizza {
      * Retorna a nota fiscal contendo a descricao e o valor total
      * @return Uma String no formato Nora Fiscal/Descricao: {descricao}/ Valor total:{valor total}
      */
-    public String gerarNotaFiscal(){
+    public String imprimirNotaFiscal(){
        int valorTotal = calcularValorTotal();
         String notaFiscal = "Nota Fiscal \nDescricao: "+descricao+"\nValor total: "+valorTotal;
         return notaFiscal;
